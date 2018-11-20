@@ -1,0 +1,55 @@
+.container {
+    background: rgb(82, 195, 240);
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    /* padding: 10px; */
+}
+
+#titleContainer {
+    background: purple;
+    margin: .3em;
+    border: .1em solid black;
+    border-radius: .3em;
+    box-shadow: 5px 10px 20px rgb(253, 188, 253) inset;
+}
+
+#timerContainer {
+    background: orangered;
+    margin: .3em;
+    border: .1em solid black;
+    border-radius: .3em;
+    box-shadow: 5px 10px 20px rgb(255, 187, 163) inset;
+}
+
+#questionContainer {
+    background: greenyellow;
+    margin: .3em;
+    /* height: 200px; */
+    border: .1em solid black;
+    border-radius: .3em;
+    box-shadow: 5px 10px 20px rgb(233, 255, 200) inset;
+}
+
+#questionText1, 
+#questionText2, 
+#questionText3, 
+#questionText4, 
+#questionText5, 
+#questionText6, 
+#questionText7, 
+#questionText8, 
+#questionText9, 
+#questionText10 {
+    background: orange;
+    margin: .3em;
+    border: .1em solid black;
+    border-radius: .3em;
+    box-shadow: 5px 10px 20px rgb(255, 228, 179) inset;
+
+}
+form {
+    font-size: .8em;
+}
+
+
