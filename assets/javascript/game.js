@@ -34,17 +34,19 @@ $(document).ready(function () {
     question: "As far as reasoning power goes, what is the most intelligent family of birds?",
       answers: ["crow", "penguin", "hummingbird", "ostrich"],
       correct: "crow"
-  }/*,
+  /*},
 
-      birdQuestions = {
-      question: "What bird is the international symbol of happiness?",
-      answers: ["hummingbird", "bluebird", "booby", "sparrow"],
-      correct: "bluebird"
-  };*/
+  {
+      question2: "What bird is the international symbol of happiness?",
+      answers2: ["hummingbird", "bluebird", "booby", "sparrow"],
+      correct2: "bluebird" */
+  };
     
-  // for(i=1; i<4; i++){
-  // $('label[for=answerText1]').html("birdQuestions.question");
-  // }
+  for(i=1; i<4; i++){
+  
+    $('label[for=answerText1]').text(birdQuestions.question.answers[i]);
+  console.log("answers: " + birdQuestions.question.answers[i]);
+  }
 
   //Question 1
   // $("#questionContainer")
@@ -79,7 +81,6 @@ function setTimer() {
   function setQuestion() {
     for(i = 1; i < birdQuestions.question.length; i++) {
 
-    
     $("#questionText"+[i]).text(birdQuestions.question);
     console.log("question: " + birdQuestions.question);
 
